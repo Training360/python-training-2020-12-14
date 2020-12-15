@@ -33,3 +33,7 @@ Feladat, add össze a számokat!
 * Hozz létre egy listát, mely a páros számokat tartalmazza 2-től 100-ig! Majd irasd ki a lista értékét!
 * Van egy számokat tartalmazó listád, és számold meg, hogy hány 10-nél nagyobb elem van benne! Pl. `[3, 25, 2, 35, 1]`
 esetén `2` értéket kell kiírni.
+* Kérj a felhasználól be számokat! Egészen addig, amíg a 0 számot adja meg! A bekért számokat tedd egy listába!
+Majd számold ki a listában szereplő számok átlagát!
+* Végy egy listát, amiben stringek vannak! Hozz létre egy új listát! Amely az eredeti lista elemeit tartalmazza,
+kiszűrve belőle a 3-nál rövidebb stringeket. `['alma', 'korte', 'ab']` ->  `['alma', 'korte']`
