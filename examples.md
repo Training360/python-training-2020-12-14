@@ -25,3 +25,11 @@ mindegyikre írd ki, hogy nagyobb, vagy kisebb-e mint 5!
 ```
 
 * Állapítsátok meg egy Stringről, hogy szerepel-e benne magánhangzó!
+
+# Listák
+
+* Van egy `s` változóban egy string, mely számokat tartalmaz pontosvesszővel elválasztva. Pl. `5;8;7;13`.
+Feladat, add össze a számokat! 
+* Hozz létre egy listát, mely a páros számokat tartalmazza 2-től 100-ig! Majd irasd ki a lista értékét!
+* Van egy számokat tartalmazó listád, és számold meg, hogy hány 10-nél nagyobb elem van benne! Pl. `[3, 25, 2, 35, 1]`
+esetén `2` értéket kell kiírni.
