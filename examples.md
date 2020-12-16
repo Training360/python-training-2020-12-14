@@ -37,3 +37,10 @@ esetén `2` értéket kell kiírni.
 Majd számold ki a listában szereplő számok átlagát!
 * Végy egy listát, amiben stringek vannak! Hozz létre egy új listát! Amely az eredeti lista elemeit tartalmazza,
 kiszűrve belőle a 3-nál rövidebb stringeket. `['alma', 'korte', 'ab']` ->  `['alma', 'korte']`
+
+# Algoritmusok
+
+* Írj egy függvényt, mely paraméterül kap egy listát! A lista növekvő lista-e!
+
+1,2,6,9,14: True
+1,6,2,6,7,: False
