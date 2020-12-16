@@ -1,4 +1,5 @@
-def find_all(s, sub):
+def find_all(s: str, sub: str) -> list:
+    """Megkeresi az elso parameterkent atadott stringben a masodik substringet."""
     if sub == "":
         return []
     result = []
@@ -22,18 +23,5 @@ def find_all_2(s, sub):
     return result
 
 
-print(find_all("almakorte", "al"))
-print(find_all("almakorte", "a"))
-print(find_all("almaalmaalma", "al"))
-print(find_all("almaalmaalmaal", "al")) # Boundary value analysis
-print(find_all("", "al")) # Boundary value analysis
-print(find_all("", "")) # Boundary value analysis
-
-print("\n")
-
-print(find_all_2("almakorte", "al"))
-print(find_all_2("almakorte", "a"))
-print(find_all_2("almaalmaalma", "al"))
-print(find_all_2("almaalmaalmaal", "al")) # Boundary value analysis
-print(find_all_2("", "al")) # Boundary value analysis
-print(find_all_2("", "")) # Boundary value analysis
+result = find_all("alma", "a")
+print(type(result))
